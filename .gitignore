@@ -1,0 +1,11 @@
+node_modules/
+.cache/
+public
+.env
+.env.development
+.env.production
+.env.staging
+.env.testing
+.package-lock.json
+.package.json
+.db.js
