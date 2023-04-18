@@ -76,13 +76,13 @@ voluptate aliquip proident
 
 export const ProPlan = () => {
     console.log("pro plan.")
-    console.log("")
+
     const data = useStaticQuery(query)
     return (
 
         <Card style={cardStyle.card}>
       <Img 
-                fluid={data.brand.childImageSharp.fluid}
+                fluid={data.proPlan.childImageSharp.fluid}
         />
               <List>
        {proPlanFeatures.map((feature)=><ListItem>{feature}</ListItem>)}
